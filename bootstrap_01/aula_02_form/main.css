@@ -1,0 +1,58 @@
+* {
+    font-family: "Montserrat", Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+}
+.navbar-brand, 
+.navbar-nav .nav-link, 
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+nav.nv_transparent {
+    font-weight: 700;
+    padding: 17px 0px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.text-bg-secondary {
+    color: #000!important;
+    background-color: rgba(255, 255, 255, 0.110)!important;
+    backdrop-filter: blur(15px)!important;
+    -webkit-backdrop-filter: blur(15px)!important;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.4) inset 1px, 5px 5px rgba(0, 0, 0, 0.25)!important;
+    padding: 2%;
+}
+
+#floatingInput,
+#floatingPassword{
+    border: 0;
+    outline: 0;
+    border-radius: 500px;
+    font-size: 16px;
+    font-weight:700;
+    padding: 10px 15px;
+    color: #312e42;
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+#floatingInput:focus {
+    box-shadow: inset 1px 4px 7px rgba(0, 0, 0, 0.5);
+}
+#floatingPassword:focus {
+    box-shadow: inset 1px 4px 7px rgba(0, 0, 0, 0.5);
+}
+
+.eyes i{
+    position: absolute;
+    right: 8%;
+    top: 35%;
+    color: #777;
+    cursor: pointer;
+}
+div.eyes #eye {
+    display: none;
+}
