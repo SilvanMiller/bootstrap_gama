@@ -1,10 +1,9 @@
 * {
     font-family: "Montserrat", Arial, sans-serif;
 }
-
 body {
-    background: linear-gradient(50deg, #ff4169, #7c26f8);
-    background-attachment: fixed;
+    background: url(https://newevolutiondesigns.com/images/freebies/city-wallpaper-18.jpg) no-repeat fixed;
+    background-size:cover;
 }
 .navbar-brand, 
 .navbar-nav .nav-link, 
@@ -12,9 +11,9 @@ body {
     color: #fff;
 }
 
+
 nav.nv_transparent {
     font-weight: 700;
-    padding: 17px 0px;
     background: rgba(0, 0, 0, 0.6);
 }
 
@@ -23,11 +22,17 @@ nav.nv_transparent {
     background-color: rgba(255, 255, 255, 0.110)!important;
     backdrop-filter: blur(15px)!important;
     -webkit-backdrop-filter: blur(15px)!important;
-    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.4) inset 1px, 5px 5px rgba(0, 0, 0, 0.25)!important;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.4) inset 1px 5px 5px rgba(0, 0, 0, 0.25)!important;
     padding: 2%;
 }
 
+.alert-success{
+    color:#7d38db;
+    background-color: #7BE26E
+}
+
 #floatingInput,
+#logado,
 #floatingPassword{
     border: 0;
     outline: 0;
@@ -35,7 +40,7 @@ nav.nv_transparent {
     font-size: 16px;
     font-weight:700;
     padding: 10px 15px;
-    color: #312e42;
+    /* color: #312e42; */
     box-shadow: rgba(0, 0, 0, 0.25);
 }
 
@@ -46,13 +51,35 @@ nav.nv_transparent {
     box-shadow: inset 1px 4px 7px rgba(0, 0, 0, 0.5);
 }
 
+
+
+#validoEmail{
+    font-size: 16px;
+    font-weight:700;
+    color:#7d38db;
+    margin: 1%, 3%;
+}
+
 .eyes i{
     position: absolute;
     right: 8%;
     top: 35%;
-    color: #777;
+    color: #7d38db;
     cursor: pointer;
 }
 div.eyes #eye {
     display: none;
 }
+
+.btn{
+    border-radius: 1.2rem;
+    font-weight:700;
+    background-color:darkgrey
+}
+
+.border-success{
+    border: 2px solid ;
+    
+}
+
+
