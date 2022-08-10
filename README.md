@@ -1,5 +1,3 @@
-##### Criação de uma pagina de login com Bootstrap nesse processo acabei incluindo uma altenticação com REGEX
-
 <h1 style = display: "inline block" align = "center" margin = "0px" >Silvan Miller estudante da Gama Academy! 👋</h1>
 <br>
 
